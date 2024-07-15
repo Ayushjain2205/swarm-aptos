@@ -43,7 +43,7 @@ const Create = () => {
                   key={section.title}
                   className="flex flex-col mt-[20px] overflow-x-hidden"
                 >
-                  <p className="text-center w-full text-[13px] font-[700]">
+                  <p className="text-center w-full text-[13px] font-[700] uppercase">
                     {section.title}
                   </p>
                   {chunkItems(section.items, 4).map((row, idx) => (

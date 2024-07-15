@@ -1,44 +1,44 @@
+import { type } from "os";
+
 const sections = [
   {
-    title: "PROTOCOLS",
+    title: "software",
     items: [
       {
-        type: "uniswap",
-        icon: "https://cryptologos.cc/logos/uniswap-uni-logo.png",
-        border: true,
+        type: "twitter",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png",
       },
       {
-        type: "curve",
-        icon: "https://cryptologos.cc/logos/curve-dao-token-crv-logo.png",
-        border: true,
+        type: "reddit",
+        icon: "https://static-00.iconduck.com/assets.00/reddit-icon-2048x2048-ya82zt8l.png",
       },
       {
-        type: "pancake",
-        icon: "https://cryptologos.cc/logos/thumbs/pancakeswap.png",
-        border: true,
+        type: "discord",
+        icon: "https://static.vecteezy.com/system/resources/previews/006/892/625/original/discord-logo-icon-editorial-free-vector.jpg",
       },
       {
-        type: "sushiswap",
-        icon: "https://cryptologos.cc/logos/thumbs/sushiswap.png",
-        border: true,
+        type: "youtube",
+        icon: "/logos/youtube.svg",
       },
       {
-        type: "maker",
-        icon: "https://cryptologos.cc/logos/thumbs/maker.png?",
-        border: true,
+        type: "instagram",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png",
       },
       {
-        type: "aave",
-        icon: "https://cryptologos.cc/logos/thumbs/aave.png?",
-        border: true,
+        type: "linkedin",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+      },
+      {
+        type: "spotify",
+        icon: "/logos/spotify.svg",
       },
     ],
   },
   {
-    title: "WALLETS",
+    title: "actions",
     items: [
       {
-        type: "metamask",
+        type: "search",
         icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/2048px-MetaMask_Fox.svg.png",
       },
       {
@@ -60,7 +60,7 @@ const sections = [
     ],
   },
   {
-    title: "ACTION",
+    title: "output",
     items: [
       {
         type: "hunt",
@@ -81,64 +81,6 @@ const sections = [
       {
         type: "swap",
         icon: "/icons/swap.svg",
-      },
-    ],
-  },
-  {
-    title: "PLATFORMS",
-    items: [
-      {
-        type: "twitter",
-        icon: "https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png",
-      },
-      {
-        type: "reddit",
-        icon: "https://static-00.iconduck.com/assets.00/reddit-icon-2048x2048-ya82zt8l.png",
-      },
-      {
-        type: "discord",
-        icon: "https://static.vecteezy.com/system/resources/previews/006/892/625/original/discord-logo-icon-editorial-free-vector.jpg",
-      },
-      {
-        type: "instagram",
-        icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png",
-      },
-      {
-        type: "lens",
-        icon: "https://user-images.githubusercontent.com/12957692/193897314-e6d265e2-6951-4799-ad29-5bd881e04fc5.svg",
-      },
-    ],
-  },
-  {
-    title: "CHAINS",
-    items: [
-      {
-        type: "ethereum",
-        icon: "https://cryptologos.cc/logos/ethereum-eth-logo.png",
-        border: true,
-      },
-      {
-        type: "base",
-        icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLNvsFSvVHz_EkKpHzfTvTZKM-VaiqOpiorA&s",
-        border: true,
-      },
-      {
-        type: "linea",
-        icon: "https://images.seeklogo.com/logo-png/52/1/linea-logo-png_seeklogo-527155.png",
-      },
-      {
-        type: "polygon",
-        icon: "https://cryptologos.cc/logos/polygon-matic-logo.png",
-        border: true,
-      },
-      {
-        type: "zksync",
-        icon: "https://seeklogo.com/images/Z/zksync-logo-BD917280E5-seeklogo.com.png",
-      },
-      {
-        type: "arbitrum",
-        icon: "https://cryptologos.cc/logos/arbitrum-arb-logo.png",
-        border: true,
       },
     ],
   },

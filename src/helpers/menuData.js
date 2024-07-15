@@ -39,23 +39,23 @@ const sections = [
     items: [
       {
         type: "search",
-        icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/2048px-MetaMask_Fox.svg.png",
+        icon: "/logos/search.svg",
       },
       {
-        type: "coinbase",
-        icon: "https://altcoinsbox.com/wp-content/uploads/2022/12/coinbase-wallet-logo.jpg",
+        type: "buy",
+        icon: "/logos/buy.svg",
       },
       {
-        type: "wallet-connect",
-        icon: "https://seeklogo.com/images/W/walletconnect-logo-EE83B50C97-seeklogo.com.png",
+        type: "convert",
+        icon: "/logos/convert.svg",
       },
       {
-        type: "trust",
-        icon: "https://seeklogo.com/images/T/trust-wallet-token-twt-logo-5312F3331F-seeklogo.com.png",
+        type: "analyse",
+        icon: "/logos/analyse.svg",
       },
       {
-        type: "rainbow",
-        icon: "https://play-lh.googleusercontent.com/fMUvmUmIpIDoZGTACYohbY3DE7-24GFkQ21WjVHxa57qluzWrr7khkycE8cz_juhew",
+        type: "files",
+        icon: "/logos/files.svg",
       },
     ],
   },
@@ -63,24 +63,24 @@ const sections = [
     title: "output",
     items: [
       {
-        type: "hunt",
-        icon: "/icons/hunt.svg",
+        type: "image",
+        icon: "/logos/image.svg",
       },
       {
-        type: "stake",
-        icon: "/icons/stake.svg",
+        type: "pdf",
+        icon: "/logos/pdf.svg",
       },
       {
-        type: "strategy",
-        icon: "/icons/strategy.svg",
+        type: "video",
+        icon: "/logos/video.svg",
       },
       {
-        type: "trade",
-        icon: "/icons/trade.svg",
+        type: "text",
+        icon: "/logos/text.svg",
       },
       {
-        type: "swap",
-        icon: "/icons/swap.svg",
+        type: "markdown",
+        icon: "/logos/mdx.svg",
       },
     ],
   },
